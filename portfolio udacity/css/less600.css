@@ -1,0 +1,26 @@
+
+.title-super{
+    font-size:40px;
+    text-align: center;
+}
+.ninja{
+    font-size:20px;
+    text-align: center;
+}
+.hello{
+    font-weight: 700;
+    font-size: 100px;
+}
+.button{
+    margin-left: 50px;}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-size:15px;
+}
+.btn-primary1{
+    margin:0px;}
+.welcome{
+    display: none;
+}

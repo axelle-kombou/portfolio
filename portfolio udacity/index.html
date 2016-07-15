@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media ="screen and (max-width:600px)" href="css/less600.css"> <!-- a separate stylesheet for a viewport less than 600px-->
+  <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <script src="https://use.fontawesome.com/87d9da49b0.js"></script>
+</head>
+  <body>
+  <div class="container">
+
+    <!--This is the header-->
+    <div class="row">
+      <div class="col-md-6">
+        <img class="title-logo" src="./image/about.jpg">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super">Axelle Kombou</h1>
+        <h3 class="ninja">Front-end Ninja</h3>
+      </div>
+    </div>
+
+    <!--cute divider-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+
+    <!--Here starts the middle text section-->
+    <div class="row" id="middle-section">
+      <div class="col-md-12">
+        <span class="info">
+          <h1 class="hello">Hello!</h1>
+          <div class="button">
+            <a href="https://axelle-kombou.github.io/online-resume/frontend-nanodegree-resume-master/"
+               class="btn btn-primary1">Resume</a>
+            <a href="#footer" class="btn btn-primary2">Contact</a>
+          </div>
+        </span>
+        <p><h2 class="welcome">Welcome to my portfolio</h2></p>
+        <p><h2 class="welcome">Feel free to check out my work</h2></p>
+      </div>
+    </div>
+
+    <!--This is the section featuring the projects-->
+
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="./image/resume.png" class="img-responsive" data-toggle="modal" data-target="#project1">
+        <h3>RESUME</h3>
+      </div>
+      <div class="col-md-6">
+        <img src="./image/python.png" class="img-responsive" data-toggle="modal" data-target="#project2">
+        <h3>PYTHON QUIZ</h3>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="./image/puppy.jpg" class="img-responsive" data-toggle="modal" data-target="#project3">
+        <h3>Coming soon</h3>
+      </div>
+      <div class="col-md-6">
+        <img src="./image/puppy.jpg" class="img-responsive" data-toggle="modal" data-target="#project3">
+        <h3>Coming soon</h3>
+      </div>
+    </div>
+
+      <!--Cute separator again-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+
+      <!--This is the footer with the social icons-->
+
+    <footer class="footer" id="footer">
+      <div class="col-md-12">
+        <p class="contact">Contact Me </p>
+        <ul class="social-network social-circle">
+          <li><a href="https://github.com/axelle-kombou" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://funandstruggles.wordpress.com/" class="icoWordpress" title="Wordpress"><i class="fa fa-wordpress"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/axelle-sandjong-78016072?trk=nav_responsive_tab_profile_pic" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- This is for the pop-up when you click on a project also called Modal -->
+
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Resume</h2>
+        </div>
+        <div class="modal-body">
+          <a href="https://axelle-kombou.github.io/online-resume/frontend-nanodegree-resume-master/"> <img class="img-responsive" src="./image/resume.png"> </a>
+          <br><br>
+         <p class="description">This was the last project in Udacity's intro tto programming Nanodegree. The purpose of this project was to
+          practice basic JavaScript skills and end up with a beautiful resume. All of the resume was created dynamically with javascript.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Python quiz</h2>
+        </div>
+        <div class="modal-body">
+          <a href="https://github.com/axelle-kombou/python_quiz/blob/master/quiz2.py"> <img class="img-responsive" src="./image/python.png"></a>
+          <br><br>
+         <p class="description">For this project i've build a fill-in-the-blanks quiz. This quiz will prompt a user with a sentence containing
+          several blanks. The user will then be asked to fill in each blank appropriately to complete the sentence. This
+          can be used as a study tool to help you remember important vocabulary!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
